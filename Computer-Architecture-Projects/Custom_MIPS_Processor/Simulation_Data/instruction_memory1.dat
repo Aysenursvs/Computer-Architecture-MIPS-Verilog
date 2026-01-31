@@ -1,0 +1,39 @@
+34 // 0: lw (Opcode 52 -> Hex 34)
+83
+00
+00
+33 // 4: add (Opcode 51 -> Hex 33)
+31
+50
+05
+3a // 8: beqi (Opcode 58 -> Hex 3A)
+30
+04
+05
+35 // 12: sw (Opcode 53 -> Hex 35)
+05
+00
+08
+37 // 16: blt (Opcode 55 -> Hex 37) 
+53
+00
+01
+3b // 20: j EXIT (Opcode 59 -> Hex 3B)
+00
+00
+08
+39 // 24: addi (Opcode 57 -> Hex 39)
+88
+00
+04
+3b // 28: j START
+00
+00
+00
+36 // 32: EXIT (Opcode 54 -> Hex 36)
+88
+00
+00
+00
+00
+00

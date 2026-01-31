@@ -1,0 +1,21 @@
+37 // PC 0: blt $0, $s2, EXIT (Op: 55->0x37 | rs:0 rt:3 Imm:2)
+03
+00
+02
+33 // PC 4: move $s0, $s2     (Op: 51->0x33 | rs:3 rd:1 func:2)
+30
+10
+02
+33 // PC 8: or $s0, $s0, $s3  (Op: 51->0x33 | rs:1 rt:4 rd:1 func:4)
+14
+10
+04
+38 // PC 12: EXIT: subi $s1, $s1, 2 (Op: 56->0x38 | rs:2 rt:2 Imm:2)
+22
+00
+02
+// Padding
+00
+00
+00
+00

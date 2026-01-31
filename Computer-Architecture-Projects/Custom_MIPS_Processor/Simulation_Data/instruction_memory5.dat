@@ -1,0 +1,33 @@
+34 // PC 0: lw $t2, 0($sp)   (Op:52->34 | rs:14 rt:8 Imm:0)
+e8
+00
+00
+39 // PC 4: addi $sp, $sp, 4 (Op:57->39 | rs:14 rt:14 Imm:4)
+ee
+00
+04
+34 // PC 8: lw $t1, 0($sp)   (Op:52->34 | rs:14 rt:7 Imm:0)
+e7
+00
+00
+34 // PC 12: lw $sp, 4($sp)  (Op:52->34 | rs:14 rt:14 Imm:4)
+ee
+00
+04
+34 // PC 16: lw $t0, 0($sp)  (Op:52->34 | rs:14 rt:6 Imm:0)
+e6
+00
+00
+3a // PC 20: beqi $t1, 1, START (Op:58->3a | rs:7 Imm:1 Offset:-6 -> FA)
+70
+01
+fa
+33 // PC 24: sll $s3, $s2, 2 (Op:51->33 | rs:3 rd:4 shamt:2)
+30
+40
+81
+// Padding
+00
+00
+00
+00

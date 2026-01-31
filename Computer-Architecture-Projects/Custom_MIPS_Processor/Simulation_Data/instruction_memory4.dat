@@ -1,0 +1,33 @@
+39 // PC 0: addi $sp, $sp, -4  (Op: 39 - ADDI)
+ee
+ff
+fc
+35 // PC 4: sw $t0, 0($sp)     (Op: 35 - SW)
+e6
+00
+00
+39 // PC 8: addi $sp, $sp, -4  (Op: 39 - ADDI)
+ee
+ff
+fc
+35 // PC 12: sw $t1, 0($sp)    (Op: 35 - SW)
+e7
+00
+00
+34 // PC 16: lw $sp, -4($sp)   (Op: 34 - LW) -> HATA VERMELİ!
+ee
+ff
+fc
+35 // PC 20: sw $t2, 0($sp)    (Op: 35 - SW)
+e8
+00
+00
+36 // PC 24: beq $t0, $t0, 0   (Op: 36 - BEQ) -> Sonsuz döngü
+66
+00
+00
+// Padding
+00
+00
+00
+00
